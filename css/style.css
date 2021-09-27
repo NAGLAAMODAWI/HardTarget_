@@ -1,0 +1,531 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+h1{
+  padding-top: 33px;
+  margin-bottom: 30px;
+  color: white;
+}
+.nav{
+    padding-left:250px
+   }
+   .navbar {
+   min-height: 67px;
+    background: white;
+  }
+  .navbar-inverse .navbar-toggle {
+    border-color: #315bb2;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #315bb2;
+}
+  
+  /*color of the navbar and brand*/
+  .navbar-inverse .navbar-nav{
+    padding-left: 300px;
+  }
+   .navbar-inverse .navbar-nav > li > a:hover,
+  .navbar-inverse .navbar-nav > li > a:focus {
+    color: #315bb2; 
+  }
+  
+  .navbar-inverse .navbar-nav > li > a {
+    font-family: "Raleway", sans-serif;
+    font-weight: 650;
+    font-size: 16px;
+  }
+   .collapse  .sa {
+    float: left;
+    margin-left: -700px;
+    padding-top:30px ;
+  
+   } 
+   .collapse  .sa i{
+     margin: 3px;
+   }
+   .navbar-inverse .navbar-nav > li > a  {
+    color: black;
+    font-size: 16px;
+    padding-top: 30px;
+  }
+  .navbar-inverse .navbar-brand img{
+    max-width:87px;
+    max-height: 55px;
+    margin-top: -10px;
+  }
+  .navbar-toggle {
+    padding-top: 10px;
+    margin-top: 15px;
+  }
+  /*Start Header Style*/
+.Header{
+  background: url("../img/dedicateddesk.png");
+  background-size: cover;
+  height: 550px;
+}
+.Header_Cover{
+ background-image: url("../img/Rectangle\ 549.png");
+ height: 550px;
+}
+.Text_in-Header{
+color: white;
+}
+.Text_in-Header h2{
+margin-top: 238px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.Text_in-Header p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.Text_in-Header .button-Two {
+   margin: 10px;
+    width: 100px;
+    color: #315bb2;
+}
+.Text_in-Header .button-On  {
+  margin: 10px; 
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.05);
+}
+.button-On a{
+  color: white;
+  
+}
+
+#Services-Baground{
+  background-image: url("../img/path-2457.png");
+  height: 322px;
+  padding-top: 77px;
+}
+.Services img{
+  width: 170px;
+  height: 200px;
+}
+/* Bakeges Style */
+.Bakeges{
+  background-image: url("../img/how-to-keep.jpg");
+  height: 250px;
+}
+.Bakeges_cover{
+background-image: url("../img/Rectangle\ 549.png");
+height: 250px;
+}
+.Baground-color {
+  background-color: #EEEE;
+}
+.Bakeges h3{
+  padding-top: 30px;
+}
+.Bakeges hr{
+  width: 55px;
+  border-top: 3px solid;
+  color: white;
+}
+.Bakeges i{
+margin-right: 3px;
+}
+.list-unstyled{
+  margin-top: 25px;
+}
+.Bakeges li{
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 17px;
+}
+.Bakeges .Round:hover p{
+  border: 2px solid #315bb2;
+  -webkit-transform: scale(1.1,1.1)rotate(340deg);
+  -moz-transform: scale(1.1,1.1)rotate(340deg);
+  -o-transform: scale(1.1,1.1)rotate(340deg);
+  transform: scale(1.1,1.1)rotate(340deg);
+} 
+.Bakeges .Round p{
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  background: #e5e2eb;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  border-radius: 50px;
+  border: 2px solid #e5e2eb;
+  -webkit-transtion-duration:0.8s;
+  -moz-transtion-duration:0.8s;
+  -o-transtion-duration:0.8s;
+   transition-duration: 0.8s;
+}
+.Alfedia ,.Gold,.Pronze{
+ border-radius: 1px solid white ;
+ border-radius: 43px;
+}
+.Alfedia ,.Pronze{
+  margin-top: -78px;
+}
+.Alfedia{
+  background-color: #315bb2;
+  color: white;
+}
+.Gold{
+  background-color: #d2802d;
+  margin-top: -110px;
+  color: white;
+}
+.Gold .list-unstyled{
+  margin-top: 56px;
+}
+.Gold .Button-color{
+  margin: 50px 0 39px;
+}
+.Pronze{
+  background-color: white;
+  color: black;
+}
+.Pronze .Button-color{
+  color: white;
+  background-color:  #2e6da4;
+}
+.Button-color{
+     color: black;
+    background-color:  white;
+    border-color: #2e6da4;
+    font-size: larger;
+    font-weight: bold;
+    margin: 36px 0 39px;
+}
+
+
+/*About Us*/
+.About{
+  margin-top: 20px;
+}
+.propertie button{
+  background-color: #2e6da4;
+  color: white;
+  border-color: #2e6da4;
+  font-size: larger;
+  font-weight: bold;
+  margin: 17px 0 10px 0;
+
+}
+.img-properties img{
+width: 310px;
+height: 312px;
+margin-top: 10px;
+margin-left: -50px;
+}
+/*statistic Style */
+.statistic{
+  
+  background : url("../img/1.jpg" ) no-repeat center center fixed; 
+  /*Beacuse if i do zoome (-)the image dont hidden*/
+  -webkit-background-size:cover ;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+}
+
+.statistic .data{
+  color: white;
+  -webkit-transition: all 0.9s ease-in-out;
+  -moz-transition: all 0.9s ease-in-out;
+  -o-transition: all 0.9s ease-in-out;
+ transition: all 0.9s ease-in-out;
+ margin-bottom: 30px;
+}
+.statistic .data:hover{
+color: #315bb2;
+}
+.statistic p{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.statistic span{
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+ .stat{
+  background-image: url(../img/Rectangle\ 549.png);
+max-height: 400px;
+}
+/*Contacu_Us Style*/
+.contactUs{
+  margin-top: 30px;
+}
+
+.call p{
+  margin-top: 40px;
+  text-justify: auto;
+}
+.call .social{
+  margin-top: 50px;
+  font-weight: bold;
+    font-size: 15px;
+}
+.call .social i{
+margin:0 0px 10px 20px ;
+}
+.login{
+ padding-right: 10px;
+}
+.form-control {
+ display: block;
+ width: 88%;
+ margin-top: 20px;
+}
+.login .btn {
+ width: 88%;
+ background-color:#315bb2 ;
+color: white;
+}
+.login input[type="text"]{
+ width: 100%;
+ margin-left: 40px;
+}
+/*Testmelion style*/
+.Testmelions h1{
+  color: #2e6da4;
+  text-align: center;
+  margin-bottom: -22px;
+}
+.slideshow-container {
+  position: relative;
+   }
+.person{
+background-color:  #eeeeeecf;
+padding: 10px;
+border-radius: 10px;
+border: 1px solid white;
+}
+.person:hover{
+border: 1px solid  #315bb2;
+border-radius: 15px;
+}
+.person img{
+width: 70px;
+height: 70px;
+border: 2px solid #315bb2;
+border-radius: 50%;
+}
+.person p{ 
+margin-top: 10px;
+}
+/* Slides */
+.mySlides {
+display: none;
+padding: 80px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+cursor: pointer;
+position: absolute;
+top: 50%;
+width: auto;
+margin-top: -30px;
+padding: 16px;
+color: #888;
+font-weight: bold;
+font-size: 20px;
+border-radius: 0 3px 3px 0;
+user-select: none;
+padding-top: 122px;
+}
+
+/* Position the "next button" to the right */
+.next {
+position: absolute;
+right: 0;
+border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+color: #315bb2;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+text-align: center;
+padding: 20px;
+margin-top: 145px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+cursor: pointer;
+height: 15px;
+width: 15px;
+margin: 0 2px;
+background-color: #315bb2;
+border-radius: 50%;
+display: inline-block;
+transition: background-color 0.6s ease;
+}
+a:hover, a:focus {
+color: #23527c;
+text-decoration: none;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;}
+
+/*Footer Style*/
+.fotter{
+  background: #315bb2;
+  color: white;
+  font-size: 16px;
+  margin-top: 58px;
+  padding-bottom: 24px;
+}
+.fotter img{
+  max-width: 200px;
+  max-height: 200px;
+}
+.fotter .aa{
+  margin-left: 70px;
+}
+.fotter .aaa p{
+ 
+  padding-left: 40px;
+}
+
+.fotter  h3{
+margin-top: 0px;
+
+}
+.fotter  h3{
+  padding-left: 60px;
+}
+
+.fotter .social i{
+  margin: 7px;
+  color: white;
+}
+.fotter .social i:hover{
+  color: #315bb2;
+  background: white;
+}
+.fotter hr{
+  color: white;
+  width: 100%;
+}
+.fotter .menu a{
+  color: white;
+  margin: 75px;
+}
+  /*Media Party*/
+  
+  @media (max-width: 468px){
+    .Text_in-Header h2{
+      font-size: 31px;
+    }
+    .Text_in-Header p{
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 768px)and (max-width: 1500px){
+    #Img-1{
+      padding-top: 30px;
+    }
+    #Img-2{
+      padding-top: 70px;
+    }
+    #Img-3{
+      padding-top: 110px;
+    }
+    #Img-4{
+      margin-top: -100px;
+    }
+    #Img-5{
+      margin-top: -56px;
+    }
+    #Img-6{
+      margin-top: -12px;
+    }
+    #Img-7{
+      margin-top: 33px;
+    }
+  }
+  @media (max-width: 768px){
+    .Services img{
+     margin-bottom: -23px;
+    }
+    .form-control {
+      width: 100%;
+    }
+    .login .btn {
+      width: 100%;
+    }
+    .stat {
+      max-height: 600px;
+  }
+  .fotter .aaa {
+    margin: 30px 0 30px;
+  }
+  .fotter .menu a {
+  margin: 70px;
+  }
+  }
+  @media (min-width: 768px) and (max-width: 991px){
+    .navbar-inverse .navbar-nav {
+      padding-left: 145px;
+  }  
+.Alfedia, .Gold, .Pronze {
+    margin: -20px 118px 20px;
+}
+.Alfedia {
+  margin-top: -80px;
+}
+  }
+  
+      @media (max-width: 767px){
+        .Alfedia, .Gold, .Pronze {
+          margin: -9px;
+      }
+        .Alfedia, .Gold, .Pronze {
+          margin: 2px 63px 32px;
+      }
+      .Alfedia{
+        margin-top: -80px;
+      }
+      .About{
+        margin-top: 1500px;
+      }
+      .navbar-inverse .navbar-nav > li > a {
+        color: #315bb2;
+        font-size: 24px;
+      }
+     }
+         
+          @media (max-width: 991px){
+          #Services-Baground {
+            height: 338px;
+            padding-top: 37px;
+            margin-bottom: -208px;
+          }
+          .next ,.prev{
+           display: none;
+          }
+          .person{
+            margin-bottom: 30px;
+          }
+          .mySlides{
+            margin-bottom: -211px;
+          }
+        }
+        
+        
