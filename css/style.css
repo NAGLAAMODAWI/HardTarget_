@@ -21,7 +21,9 @@ h1{
 .navbar-inverse .navbar-toggle .icon-bar {
   background-color: #315bb2;
 }
-  
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+  background-color:white;
+}
   /*color of the navbar and brand*/
   .navbar-inverse .navbar-nav{
     padding-left: 300px;
@@ -95,7 +97,7 @@ margin-top: 238px;
   color: white;
   
 }
-
+/*Services Style*/
 #Services-Baground{
   background-image: url("../img/path-2457.png");
   height: 322px;
@@ -215,7 +217,6 @@ margin-right: 3px;
 width: 310px;
 height: 312px;
 margin-top: 10px;
-margin-left: -50px;
 }
 /*statistic Style */
 .statistic{
@@ -471,7 +472,7 @@ margin-top: 0px;
       width: 100%;
     }
     .stat {
-      max-height: 600px;
+      max-height: 625px;
   }
   .fotter .aaa {
     margin: 30px 0 30px;
@@ -492,16 +493,35 @@ margin-top: 0px;
 }
   }
   
+  @media (max-width: 991px){
+    #Services-Baground {
+      height: 338px;
+      padding-top: 37px;
+      margin-bottom: -208px;
+    }
+    .next ,.prev{
+     display: none;
+    }
+    .person{
+      margin-bottom: 30px;
+    }
+    .mySlides{
+      margin-bottom: -211px;
+    }
+  }
       @media (max-width: 767px){
         .Alfedia, .Gold, .Pronze {
-          margin: -9px;
+          margin: 2px 15px 32px;
       }
-        .Alfedia, .Gold, .Pronze {
-          margin: 2px 63px 32px;
-      }
+      .Pronze {
+        margin-bottom: 74px;
+    }
       .Alfedia{
         margin-top: -80px;
       }
+      .Gold .list-unstyled {
+        margin-top: 21px;
+    }
       .About{
         margin-top: 1500px;
       }
@@ -509,23 +529,26 @@ margin-top: 0px;
         color: #315bb2;
         font-size: 24px;
       }
+      #bb{
+        margin-bottom: 23px;
+      }
+      #Services-Baground{
+      margin-bottom: -302px;
+      }
+      #Services-Baground h2{
+        display: none;
+      }
+      #Services-Baground p{
+        display: none;
+      }
+      .Bakeges li {
+        margin-bottom: 10px;
+    }
+    .person{
+      margin: 0  -68px 23px;
+    }
      }
          
-          @media (max-width: 991px){
-          #Services-Baground {
-            height: 338px;
-            padding-top: 37px;
-            margin-bottom: -208px;
-          }
-          .next ,.prev{
-           display: none;
-          }
-          .person{
-            margin-bottom: 30px;
-          }
-          .mySlides{
-            margin-bottom: -211px;
-          }
-        }
+        
         
         
