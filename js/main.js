@@ -29,5 +29,12 @@ $('.Header  button ').click(function(){
   },1000)
 });
 
-
+$(window).load(function(){
+  $("body").css("overflow","auto");
+$(".loading-overlay .spinner").fadeOut(1000,function(){
+$(this).parent().fadeOut(1000,function(){
+  $(this).remove();
+})
+});
+});
 });//End Main Function
